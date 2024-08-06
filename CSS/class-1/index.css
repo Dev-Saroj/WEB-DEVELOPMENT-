@@ -1,0 +1,28 @@
+* {
+    background-color: black;
+    color: white;
+  }
+  
+  #heading {
+    color: blue;
+  }
+  
+  #sub_heading {
+    color: red;
+  }
+  
+  .paragraph {
+    background-color: cadetblue;
+    color: black;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  h1,
+  h2 {
+    background-color: greenyellow;
+  }
