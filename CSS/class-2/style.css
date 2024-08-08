@@ -1,0 +1,47 @@
+* {
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    width: 300px;
+    border: 4px solid red;
+    /* margin-left: 50px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    padding: 0px 20px;
+    font-size: 40px;
+    font-family: "Grey Qo", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    color: brown;
+    background-color: #212121;
+    box-sizing: border-box;
+  }
+  
+  .para {
+    margin-left: 100px;
+    margin: 50px 100px 50px 100px;
+    margin: 50px 100px;
+    border: 5px dotted green;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "Grey Qo", cursive;
+    font-weight: bolder;
+    color: #7fff00;
+    background-color: #554554;
+  }
+  
+  .first_word {
+    font-size: 35px;
+    font-weight: bolder;
+    text-decoration: line-through;
+    color: blue;
+  }
+  
+  .para:nth-child(4) {
+    background: #000;
+  }
