@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-size: 16px;
+  }
+  
+  .heading {
+    font-size: 32px;
+  }
+  
+  .para {
+    font-size: 0.2in;
+    line-height: 25px;
+  }
+  
+  .paragraph {
+    font-size: 1rem;
+  }
+  
+  .container {
+    border: 1px solid red;
+    /* width: 50%; */
+    max-width: 800px;
+    /* width: 70vw; */
+    line-height: 30px;
+    /* min-width: 50vw; */
+  }
