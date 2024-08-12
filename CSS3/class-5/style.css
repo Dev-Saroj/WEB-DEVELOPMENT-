@@ -1,0 +1,21 @@
+img {
+    width: 200px;
+    /* float: left; */
+    /* float: right; */
+    /* clear: both; */
+  }
+  
+  p {
+    /* display: none; */
+    display: inline;
+    /* display: block; */
+  }
+  
+  .para_container {
+    float: right;
+    border: 3px solid;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    /* overflow: hidden; */
+  }
