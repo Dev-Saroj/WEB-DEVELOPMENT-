@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://wallpapercave.com/wp/wp11905064.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    backdrop-filter: blur(10px);
+    font-family: "Playwrite HU", cursive;
+  }
+  
+  .flag-container {
+    perspective: 1000px; /* Adds a 3D effect */
+  }
+  
+  .flag {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    animation: wave 2s infinite ease-in-out;
+    transform-origin: left; /* Animation from the left side */
+  }
+  
+  /* Three colors of the flag */
+  .saffron {
+    background-color: #ff9933;
+    height: 33.33%;
+  }
+  
+  .white {
+    background-color: white;
+    height: 33.33%;
+    position: relative;
+  }
+  
+  .green {
+    background-color: #138808;
+    height: 33.33%;
+  }
+  
+  /* Ashoka Chakra */
+  
+  .ashoka-chakra img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    border-radius: 50%;
+    animation: rotation 5s infinite;
+  }
+  
+  .text-line {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: -4px 3px 1px gray;
+    animation: colorChange 5s linear infinite;
+  }
+  
+  /* Keyframe for waving effect */
+  @keyframes wave {
+    0%,
+    100% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(15deg);
+    }
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: #ff9933;
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: #138808;
+    }
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
