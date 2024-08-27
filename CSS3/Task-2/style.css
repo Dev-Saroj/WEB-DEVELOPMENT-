@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-size: 20px;
+    font-family: "Matemasie", sans-serif;
+  }
+  
+  .main_container {
+    border: 1px solid;
+    max-width: 400px;
+    /* height: 600px; */
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .img_container img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    /* transition: 2s ease-in-out; */
+  }
+  
+  .img_container img:hover {
+     transform: scale(1.2); 
+  }
+  
+  .text {
+    border-bottom: 2px solid;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 0px;
+    padding-left: 50px;
+    background: gray;
+    color: blue;
+  }
+  
+  .button_container {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    background: gray;
+    color: blue;
+  }
+  
+  .button_container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    border: transparent;
+    transition: 2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ff9900;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
