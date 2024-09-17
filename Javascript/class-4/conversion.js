@@ -70,5 +70,3 @@ console.log("000002" > 0.0001); //true
 console.log(null > 0); // false
 console.log(null === 0); // false
 console.log(null == 0); // false
-
-

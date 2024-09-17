@@ -9,8 +9,8 @@
 // console.log(age); // ReferenceError: Cannot access 'age' before initialization
 // console.log(city);
 
-var name = "Pramod";
-let age = 25;
+var name = "Saroj";
+let age = 22;
 const city = "Bhubaneswar";
 
 
