@@ -121,8 +121,5 @@ console.log(isPast); // true
 // Home Task:
 // Task-1:
 // Find the difference between current date and your dob in days
-
-
-
 // Task-2:
 // Add 10 days to the current date
