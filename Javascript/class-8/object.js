@@ -74,11 +74,6 @@ delete person2.name;
 
 let array = ["saroj", 23, "student", "Bhubaneswar", 9178911639];
 
-let object = { 
-    key1: "value1",
-    key2: 2,
-};
-
   let person = {
     name: "saroj",
     age: 23,
