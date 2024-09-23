@@ -58,7 +58,7 @@ const longDate = new Date("August 21, 1998");
 // 1. add days
 const addDays = currentDateTime.setDate(17);
 // console.log(addDays); // 1726585680835
-// 2. add month
+// 2. add month                     
 const addMonth = currentDateTime.setMonth(10);
 // console.log(addMonth); // 1731856080835
 // 3. add year
@@ -75,7 +75,7 @@ const addDaysAlternate = new Date(currentDateTime.getTime() + 17 * 24 * 60);
 // Or
 let futureDay = new Date();
 // console.log(futureDay.getDay()); // 1-  Monday
-futureDay.setDate(futureDay.getDay() + 5);
+ futureDay.setDate(futureDay.getDay() + 5);
 // console.log(futureDay);
 // console.log(futureDay.getDay()); // 5- Friday
 
@@ -84,8 +84,8 @@ futureDay.setDate(futureDay.getDay() + 5);
 // console.log(myAge); // 26
 
 // Diiference
-const curr = new Date("2024-09-16");
-const bday = new Date("1998-08-21");
+// const curr = new Date("2024-09-16");
+// const bday = new Date("1998-08-21");
 // console.log(curr - bday); // 822787200000 /
 // const age = Math.floor((curr - bday) / (1000 * 60 * 60 * 24));
 // console.log(age);
@@ -96,9 +96,9 @@ const bday = new Date("1998-08-21");
 const date1 = new Date("2024-09-17");
 const date2 = new Date("2024-09-18");
 const oneDay = 24 * 60 * 60 * 1000; // Hours * Minutes * Seconds * Milliseconds
-const diffTime = Math.abs(date1 - date2);
-const diffDays = Math.floor(diffTime / oneDay);
-console.log(diffDays); // 1 day differnece
+// const diffTime = Math.abs(date1 - date2);
+// const diffDays = Math.floor(diffTime / oneDay);
+// console.log(diffDays); // 1 day differnece
 
 // Task2 :
 // Find the difference between two different time zone
@@ -106,20 +106,32 @@ console.log(diffDays); // 1 day differnece
 const time1 = new Date("2024-09-17T21:31:12");
 const time2 = new Date("2024-09-17T22:31:12");
 
-const differenceTimeMs = time2 - time1;
-console.log(differenceTimeMs); // 3600000sec = 1hr
-console.log(differenceTimeMs / (1000 * 60)); // 60min = 1hr
-console.log(Math.abs(time1.getHours() - time2.getHours())); // 1hr
+// const differenceTimeMs = time2 - time1;
+// console.log(differenceTimeMs); // 3600000sec = 1hr
+// console.log(differenceTimeMs / (1000 * 60)); // 60min = 1hr
+// console.log(Math.abs(time1.getHours() - time2.getHours())); // 1hr
 
 // Task3:
 // Check wheather it is a past date or not
-const currDate = new Date();
+const currDate = new Date()
 const pastDate = new Date("2024-09-15");
-const isPast = pastDate < currDate;
-console.log(isPast); // true
+const ispast = pastDate < currDate;
+console.log(ispast); //true
+
 
 // Home Task:
 // Task-1:
 // Find the difference between current date and your dob in days
+const date3 = new Date("2024-09-17");
+const date4 = new Date("2024-09-18");
+const oneday = 24 * 60 * 60 * 1000; // Hours * Minutes * Seconds * Milliseconds
+const diffTime = Math.abs(date3 - date4);
+const diffDays = Math.floor(diffTime / oneDay);
+console.log(diffDays); 
+
+
 // Task-2:
 // Add 10 days to the current date
+date.setDate( date.getDate() + 10 );
+console.log('extended date: ${date.todatestring()}');
+

@@ -72,7 +72,7 @@ delete person2.name;
 // Create an object called `person3` with the following properties: `name`, `age`,
 // `role`, `city`, `phone` and modify the `name` and `age` then delete the `phone`.
 
-let array = ["saroj", 23, "student", "Bhubaneswar", 9178911639];
+let array1 = ["saroj", 23, "student", "Bhubaneswar", 9178911639];
 
   let person = {
     name: "saroj",

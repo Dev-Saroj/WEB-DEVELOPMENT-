@@ -77,7 +77,7 @@ console.log(fruits[fruits.length - 1]); // Orange
 //   - It mutates the original array.
 //   - It does not return a new array.
 
-let fruits = ["Apple", "Mango", "Orange"];
+// let fruits = ["Apple", "Mango", "Orange"];
 // fruits.push("Guava");
 // fruits.push("Pineapple");
 fruits.push("Guava", "Pineapple", "watermelon", "strawberry");
