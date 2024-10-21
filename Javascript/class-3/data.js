@@ -139,7 +139,7 @@ let str4 = new String("Hello, World!");
 // Address : Bhubaneswar
 // Contact : 1234567890
 
-let name = "Saroj";
+let name = 'Saroj';
 let age = "22";
 let address = "Bhubaneswar";
 let contact = "1234567890";
