@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Saroj",
+      "age": 23,
+      "city": "Bhubaneswar",
+      "country": "India",
+      "role": "SDE-III"
+    },
+    {
+      "name": "Lifeline",
+      "age": 20,
+      "city": "Bhubaneswar",
+      "country": "India",
+      "role": "SDE-III"
+    }
+  ]

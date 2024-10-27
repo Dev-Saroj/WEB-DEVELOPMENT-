@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://rsanimesh.github.io/images/logo.png" alt="logo" />
+        </a>
+      </div>
+      <div class="list_items">
+        <li class="home"><a href="./">Home</a></li>
+        <li class="about"><a href="./about.html">About</a></li>
+        <li class="signup"><a href="./signup.html">Sign Up</a></li>
+        <li class="login"><a href="./login.html">Login</a></li>
+      </div>
+    </nav>
+    <div id="sign-up-form" class="form-container">
+      <h2>Sign Up</h2>
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required
+      /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      /><br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="Enter your password"
+        required
+      /><br />
+      <button id="sign-up-btn">Signup</button>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>

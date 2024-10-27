@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  nav {
+    border: 2px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 4px 2px 2px;
+  }
+  
+  nav .list_items {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  nav li {
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav .logo {
+    width: 30%;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  nav li a:hover {
+    border-bottom: 5px solid black;
+    cursor: pointer;
+  }
+  
+  nav .logo:hover {
+    cursor: pointer;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  footer .footer-contents {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  footer .first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  footer .first img {
+    width: 120px;
+  }
+  footer .logo-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  footer .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  footer .second p {
+    width: 380px;
+    text-align: center;
+  }
+  
+  footer .third {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  footer .third li {
+    list-style: none;
+  }
+  
+  footer .fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  footer .fourth li {
+    list-style: none;
+  }
+  
+  footer .line-strike {
+    color: #8a8a8a;
+    border: 1px solid;
+    height: 1px;
+  }
+  
+  footer .copy-rights {
+    text-align: center;
+  }
