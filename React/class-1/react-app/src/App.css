@@ -1,0 +1,22 @@
+nav {
+  border-bottom: 2px solid;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li:hover {
+  cursor: pointer;
+  border-bottom: 5px solid teal;
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 50px;
+}
